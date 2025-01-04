@@ -80,7 +80,7 @@ typedef struct SoldItem {
 
 //struct PurchasedItem PurchasedLog[99]; //儲存進貨的交易紀錄(使用陣列的位置當成是交易序號) 
 int  REVEIVING(PurchasedItem PurchasedLog[99]){ //注意他英文打錯receiving 
-	int i=0,count=0,price=0,amount=0,i_before=0;; //i是輸入到purchaseLog的順序
+	int i=0,count=0,price=0,amount=0,i_before=0; //i是輸入到purchaseLog的順序
     	char input_str[99],temp[99]; //input_str為輸入資料的緩衝變數 
 	PurchasedItem input_temp;
 	//以下是用來判斷當沒法設全域變數時，每次call Recieving應該要判斷從第i個開始輸入產品資訊
