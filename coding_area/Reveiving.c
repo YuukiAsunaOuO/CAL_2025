@@ -90,7 +90,7 @@ int  REVEIVING(PurchasedItem PurchasedLog[99]){ //注意他英文打錯receiving
 	i_before = i;
 	//以下為單純輸入一組商品
 	while(1){
-		scanf("%s",input_temp.barcode);
+		scanf("%s",input_temp.barCode);
 		//這邊如果有需要可以補條碼格式驗證
 		if(strcmp(input_str, "end") == 0){
 			break;
